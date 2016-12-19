@@ -47,3 +47,25 @@ $("#botonresponsive").click(function () {
 	$("#mostrarocultarmenumovil").css(display,inline-block);
 	return false;
 });
+/*En esta etapa tienes que pintar una noticia, en el párrafo que está 
+dentro de NEWS*/
+
+$(document).ready(function(){
+    $("#news").on("mouseover",function(){
+	    $("#parrafo").css("color", "#c18137");
+    });
+});
+$(document).ready(function(){
+    $("#news").on("mouseover",function(){
+	    $("#txt").css("color", "#8137c1");
+    });
+});
+/*1. Crea un función llamada printNews​.
+2. Dentro de esta función asigna el texto "NUEVAS RECETAS" al párrafo.*/
+$(".leer").hover(function (){
+    var texto = $("#nvanoticia").text();
+   
+});
+$(".reemplazar").hover(function (){
+    $("#nvanoticia").text("NUEVAS RECETAS");
+});

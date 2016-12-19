@@ -1,4 +1,5 @@
 $(document).ready( function(){
+	
 
 	//La variable "recipesArray" esta declarada en el archivo "data/recipes.js"
 	renderHighlightedRecipes(recipesArray);
@@ -51,21 +52,21 @@ $("#botonresponsive").click(function () {
 dentro de NEWS*/
 
 $(document).ready(function(){
-    $("#news").on("mouseover",function(){
-	    $("#parrafo").css("color", "#c18137");
-    });
+	$("#news").on("mouseover",function(){
+		$("#parrafo").css("color", "#c18137");
+	});
 });
 $(document).ready(function(){
-    $("#news").on("mouseover",function(){
-	    $("#txt").css("color", "#8137c1");
-    });
+	$("#news").on("mouseover",function(){
+		$("#txt").css("color", "#8137c1");
+	});
 });
 /*1. Crea un función llamada printNews​.
 2. Dentro de esta función asigna el texto "NUEVAS RECETAS" al párrafo.*/
 $(".leer").hover(function (){
-    var texto = $("#nvanoticia").text();
-   
+	var texto = $("#nvanoticia").text();
+
 });
 $(".reemplazar").hover(function (){
-    $("#nvanoticia").text("NUEVAS RECETAS");
+	$("#nvanoticia").text("NUEVAS RECETAS");
 });

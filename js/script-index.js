@@ -41,5 +41,9 @@ function renderActivities(activitiesArray) {
 function renderActivity(recipe) {
 	
 }
-
-
+/* Oculta la flecha cuando se muestre index.html​ (image con resultado final).*/
+$("#botonresponsive").click(function () {
+	$("#mostrarocultarmenumovil").stop().toggle(fast);
+	$("#mostrarocultarmenumovil").css(display,inline-block);
+	return false;
+});

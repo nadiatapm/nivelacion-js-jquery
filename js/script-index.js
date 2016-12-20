@@ -13,7 +13,9 @@ $(document).ready( function(){
 */
 function renderHighlightedRecipes(recipesArray) {
 	console.log('Recipes: ', recipesArray);
-}
+}/*$('ol li').each(function(indice, elemento) {
+  console.log('El elemento con el índice '+indice+' contiene '+$(elemento).text());
+});*/
 
 /*
 * Función que se encarga de pintar UNA recetas que tenga 

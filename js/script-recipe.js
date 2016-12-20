@@ -15,6 +15,6 @@ pestañas (2 elementos a​ con clase js-show-recipe​ y js-show-make​, estos
 2 están dentro de un DIV con clase btns-group​).*/
  $(".js-show-recipe" ).on( "click", function() {
     // lo que queramos realizar
-	$(".js-show-recipe").css("color", "white");
+	css("color", "white");
 });
 
